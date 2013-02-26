@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_insert"
+        android:icon="@drawable/ic_action_insert"
+        android:orderInCategory="@integer/menu_insert"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_insert"/>
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_action_about"
+        android:orderInCategory="@integer/menu_about"
+        android:showAsAction="always|withText"
+        android:title="@string/menu_about"/>
+
+</menu>

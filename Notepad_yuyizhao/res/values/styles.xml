@@ -1,0 +1,15 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="MyActionBar" parent="android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/lim_green</item>
+    </style>
+
+    <style name="Developers" parent="android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+</resources>

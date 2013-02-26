@@ -1,0 +1,11 @@
+<resources>
+
+    <integer name="menu_insert">0</integer>
+    <integer name="menu_about">1</integer>
+    <integer name="menu_share">1</integer>
+    <integer name="menu_save">0</integer>
+    <integer name="menu_edit">0</integer>
+    <integer name="menu_delete">0</integer>
+    <integer name="menu_welcome">10</integer>
+
+</resources>

@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_share"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@drawable/ic_action_share"
+        android:orderInCategory="@integer/menu_share"
+        android:showAsAction="always"
+        android:title="@string/menu_share"/>
+    <item
+        android:id="@+id/menu_edit"
+        android:icon="@drawable/ic_action_edit"
+        android:orderInCategory="@integer/menu_edit"
+        android:showAsAction="always"
+        android:title="@string/menu_edit"/>
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="@integer/menu_delete"
+        android:showAsAction="always"
+        android:title="@string/menu_delete"/>
+
+</menu>
